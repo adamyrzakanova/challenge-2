@@ -14,4 +14,16 @@ console.log("Updated scores:", scores);
 console.log("Total score:", total);
 console.log("Average score:", average);
 
+// task 3
+let employee = {
+    name: "Aidai Myrzakanova",
+    age: 25,
+    position: "Software Engineer",
+    isActive: true
+};  
+console.log(employee);
+employee.department = "Development";
+employee.position = "Senior Software Engineer";
+console.log("Updated employee:", employee);
+
 
