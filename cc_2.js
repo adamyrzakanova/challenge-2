@@ -18,12 +18,23 @@ console.log("Average score:", average);
 let employee = {
     name: "Aidai Myrzakanova",
     age: 25,
-    position: "Software Engineer",
+    position: "Software Engineer",  
     isActive: true
 };  
 console.log(employee);
 employee.department = "Development";
 employee.position = "Senior Software Engineer";
 console.log("Updated employee:", employee);
+
+// task 4
+let customers = [
+    {name: "Eric", email: "ericissobaka@gmail.com", purchaseAmount: 150},
+    {name: "Erkhan", email: "erkhantupoi@gmail.com", purchaseAmount: 200},
+    {name: "Erika", email: "erikabaran@gmail.com", purchaseAmount: 300},
+];
+console.log(customers);
+customers.push({name: "Erkin", email: "erkin123@gmail.com", purchaseAmount: 250});  
+console.log("Updated customers:", customers);   
+
 
 
