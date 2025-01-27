@@ -36,5 +36,18 @@ console.log(customers);
 customers.push({name: "Erkin", email: "erkin123@gmail.com", purchaseAmount: 250});  
 console.log("Updated customers:", customers);   
 
+// task 5
+let order = {
+    orderId: "11",
+    customerName: "John Doe",
+    amount: 100,
+    calculateTax: function() {
+        const taxRate = 0.07;
+        return this.amount * taxRate;
+    }
+};
+console.log("orders:", order);
+console.log("Tax amount:", order.calculateTax());   
+
 
 
